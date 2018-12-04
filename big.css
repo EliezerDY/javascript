@@ -1,0 +1,274 @@
+
+body{
+  background-color:lightblue;
+}
+h2{
+color:red;
+}
+
+
+#function1{
+height: 21em;
+width:50%;
+padding-top: 2em;
+margin-top: 2em;
+background-image: url("water.jpg");
+background-size: 840px;
+font-size: 1.1em;
+color:green;
+ font-weight: bold;
+ padding-left: .1em;
+ border:solid green;
+
+
+}
+#function2{
+height: 21em;
+width:44%;
+padding-top:2em;
+margin-left: 60em;
+padding-top: 2em;
+padding-left: .1em;
+margin-top:4em;
+background-image: url("bedroom.jpg");
+background-size: 990px;
+margin-top: -25.5em;/*24.1*/
+font-size: 1.1em;
+color:green;
+ font-weight: bold;
+  border:solid green;
+
+}
+#function3{
+height: 21em;
+width:50%;
+padding-top:2em;
+padding-left: .1em;
+background-image: url("grandhotel.jpg");
+background-size: 1100px;
+font-size: 1.1em;
+color:green;
+ font-weight: bold;
+ border:solid green;
+}
+#function4{
+height: 21em;
+width:44%;
+margin-left: 60em;
+padding-top:2em;
+padding-left: .1em;
+background-image: url("hotel.jpg");
+background-size: 1000px;
+background-height:1100px;
+margin-top: -25.5em;
+font-size: 1.1em;
+color:green;
+ font-weight: bold;
+  border:solid green;
+}
+#footer{
+  text-align:center;
+  width:100%;
+  height: 2em;
+  font-weight:bold;
+  color: red;
+}
+/*Addition 1*/
+
+#msgNote{
+  color: red;
+  background-color: white;
+  width: 30%;
+  padding: 1em;
+  margin: auto;
+  margin-top: 5em;
+  font-size: 1.5em;
+  text-align: center;
+
+}
+#note{
+  background-color: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 50em;
+  position: absolute;
+  top:0;
+  font-size: 1.5em;
+}
+#sale{
+  width:100%;
+}
+#end{
+  position: absolute;
+margin-left: 36.9em;
+  margin-top: 8em;
+  text-decoration: none;
+  color:black;
+}
+/*addition 2*/
+#Btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 1;
+  font-size: 2em;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 2em;
+}
+
+#Btn:hover {
+  background-color:blue;
+}
+/*buttons*/
+
+#bt1{
+ font-weight: bold;
+  height: 4.5em;
+  width: 12em;
+  background-color: yellow;
+  margin-top: -15em;
+   z-index: 3;
+  cursor: pointer;
+   border: 2px solid red;
+   font-size: 15px;
+   margin-left: 10em;
+}
+#bt2{
+font-weight: bold;
+  height: 4.5em;
+  width: 12em;
+  background-color: yellow;
+  margin-top: -15em;
+   z-index: 3;
+  cursor: pointer;
+   border: 2px solid red;
+   font-size: 15px;
+   margin-left: 80em;
+}
+#bt3{
+  font-weight: bold;
+  height: 4.5em;
+  width: 12em;
+  background-color: yellow;
+  margin-top: -15em;
+   z-index: 3;
+  cursor: pointer;
+   border: 2px solid red;
+   font-size: 15px;
+    margin-left: 10em;
+}
+#bt4{
+  font-weight: bold;
+  height: 4.5em;
+  width: 12em;
+  background-color: yellow;
+  margin-top: -15em;
+   z-index: 3;
+  cursor: pointer;
+   border: 2px solid red;
+   font-size: 15px;
+   margin-left: 80em;
+}
+/*third add on */
+/* The Modal (background) */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 3; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+/* Modal Content */
+.modal-content {
+    background-color: gray;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    height: 24em;
+}
+h3{
+  color: red;
+  }
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.times{
+width: 100%;
+}
+.in{
+  float:left;
+}
+.out{
+  float: right;
+}
+.secondlayer{
+position: relative;
+margin-top: 6.5em;
+width: 100%;
+/*float-left;*/
+}
+.drop1{
+  float: left;
+}
+.drop2{
+ float: left;
+ margin-left: 12em;
+}
+.drop3{
+  float: right;
+ width:33%;
+}
+.fform{
+  position: relative;
+margin-top:.1em;
+width: 100%;
+float: right;
+height: 2.4em;
+padding-top: .2em; 
+font-size: 1.2em;
+ }
+#cont{
+      background-color: #008CBA; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+}
+#can{
+     background-color: #008CBA; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+}
